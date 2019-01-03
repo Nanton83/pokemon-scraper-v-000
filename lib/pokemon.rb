@@ -10,7 +10,7 @@ def initialize(id:, name:, type:, db:)
   @id = id
   @name = name
   @type = type
-  
+
 end
 
 def self.save(name, type, db)
