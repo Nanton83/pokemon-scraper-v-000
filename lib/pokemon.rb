@@ -26,9 +26,9 @@ new_pokemon = self.new(id: pokemon[0], name: pokemon[1], type: pokemon[2], hp: p
 end
 
 
-# def alter_hp(num, db)
-#    db.execute("UPDATE pokemon SET hp = ? WHERE id = ?", [num], [self.id])
-#    self.hp = num
-#  end
+def alter_hp(num, db)
+   db.execute("UPDATE pokemon SET hp = ? WHERE id = ?", [num], [self.id])
+   self.hp = num
+ end
 
 end
