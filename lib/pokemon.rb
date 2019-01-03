@@ -6,11 +6,10 @@ class Pokemon
 
 @@all = []
 
-def initialize(id:, name:, type:, hp:, db:)
+def initialize(id:, name:, type:, db:)
   @id = id
   @name = name
   @type = type
-  @hp = hp
   @db = db
   @@all << self
 end
