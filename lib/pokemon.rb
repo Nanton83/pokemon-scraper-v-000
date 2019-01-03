@@ -7,12 +7,12 @@ class Pokemon
 @@all = []
 
 def initialize(id:, name:, type:, hp:, db:)
-  @id = id
-  @name = name
-  @type = type
-  @hp = hp
-  @db = db
-  @@all << self
+  # @id = id
+  # @name = name
+  # @type = type
+  # @hp = hp
+  # @db = db
+  # @@all << self
 end
 
 def self.save(name, type, db)
